@@ -14,7 +14,7 @@ public class Kasim_Solution {
         int dividendAbs = Math.abs(dividend);
         int divisorAbs = Math.abs(divisor);
 
-        if (divisorAbs == 0) {
+        if (divisor == 0) {
             throw new KasimDivideBy0Exception();
         }
 
@@ -37,7 +37,7 @@ public class Kasim_Solution {
     }
 
     public static class KasimDivideBy0Exception extends ArithmeticException {
-        public KasimDivideBy0Exception() {
+        public  KasimDivideBy0Exception() {
             System.err.println("===>You can't divide by 0, GEE WHIZ<===");
         }
 
