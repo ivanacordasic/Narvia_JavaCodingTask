@@ -24,7 +24,7 @@ public class Kasim_Solution {
 
             i++;
 
-            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
+            if (i % 15 == 0) {
 
                 divisibleBy15 += i + " ";
 
