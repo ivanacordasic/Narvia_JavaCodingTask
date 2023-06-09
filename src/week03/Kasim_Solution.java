@@ -17,6 +17,8 @@ public class Kasim_Solution {
         }
         return "Prime";
     }
+    
+    //------------------------------------------------------------------------------------
 
     public static int reverseNegativeNumber(int num){
 
