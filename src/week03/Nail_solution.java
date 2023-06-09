@@ -1,9 +1,10 @@
 package week03;
 
+
 public class Nail_solution {
     public static void main(String[] args) {
         System.out.println(isPrime(13));
-        System.out.println(reverse(-3));
+        System.out.println(reverse(-345));
     }
     public static boolean isPrime(int num){
 
@@ -23,6 +24,13 @@ public class Nail_solution {
         if (num<0){
             num*=-1;
         }
+        String str=num+"";
+        String reverse="";
+        for (int i = str.length()-1; i >=0 ; i--) {
+            reverse+=str.charAt(i);
+        }
+
+        num=Integer.valueOf(reverse)*-1;
         return num;
     }
 
