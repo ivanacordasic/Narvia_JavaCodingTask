@@ -5,7 +5,7 @@ public class Kasim_Solution {
     public static String primeNumber(int a) {
 
         if (a <= 1) {
-            throw new ArithmeticException("Prime numbers cannot be less than 1");
+            throw new ArithmeticException("Prime numbers cannot be less than or equal to 1");
         }
         for (int i = 2; i <= a / 2; i++) {
 
