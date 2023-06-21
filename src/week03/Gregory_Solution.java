@@ -43,12 +43,23 @@ negative number and return it as int
         if (nums > 0){
             throw new ArithmeticException("The number has to be negative");
         }
+        nums = Math.abs(nums);
+        String StringNum = String.valueOf(nums);
+        char[] array = StringNum.toCharArray();
+        String Result = "";
 
-        int positiveNums = 0;
-if (nums < 0){
-    positiveNums = nums * -1;
-}
-        System.out.println(positiveNums);
+        for (int i = array.length-1; i >=0 ; i--) {
+            Result += array[i];
+        }
+
+        int result = Integer.parseInt(Result);
+
+        System.out.println(Result);
+
+
     }
 
+
+
 }
+
