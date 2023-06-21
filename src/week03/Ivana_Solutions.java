@@ -6,7 +6,7 @@ public class Ivana_Solutions {
 
 // Prime number:
 
-        int num = 13;
+        int num = 29;
         System.out.println(isPrime(num));
 
 //  Reverse negative number
