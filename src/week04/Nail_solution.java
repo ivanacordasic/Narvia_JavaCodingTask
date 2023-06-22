@@ -11,7 +11,7 @@ public class Nail_solution {
 
     public static void main(String[] args) {
         System.out.println(frequency_of_Characters("AAABBCDD"));
-        System.out.println(sameLetters("abcd", "cabt"));
+        System.out.println(sameLetters("abcc", "cab"));
         System.out.println(removeDuplicates("AAABBBCCC"));
     }
     public static String frequency_of_Characters(String string){
