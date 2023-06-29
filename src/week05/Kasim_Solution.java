@@ -24,7 +24,7 @@ public class Kasim_Solution {
                 result += "" + str.charAt(i);
             }
         }
-        return result;
+        return result.replaceAll(" ","");
     }
 
     //---------------------------------------------------------------------
