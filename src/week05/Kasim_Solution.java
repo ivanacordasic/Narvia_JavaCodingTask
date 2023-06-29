@@ -20,7 +20,7 @@ public class Kasim_Solution {
                     counter++;
                 }
             }
-            if (counter == 1 && !result.contains("" + str.charAt(i))) {
+            if (counter == 1) {
                 result += "" + str.charAt(i);
             }
         }
