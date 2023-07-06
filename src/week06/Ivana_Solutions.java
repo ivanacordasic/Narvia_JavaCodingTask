@@ -47,7 +47,7 @@ public class Ivana_Solutions {
 
     public static int maximumNumber(int[] arr){
 
-        int maximumNumber = 0;
+        int maximumNumber = arr[0];
 
         for (int each : arr) {
             if (each > maximumNumber) {
