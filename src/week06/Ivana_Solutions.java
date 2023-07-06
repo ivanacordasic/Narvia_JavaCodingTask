@@ -21,9 +21,9 @@ public class Ivana_Solutions {
 
     public static boolean passwordValidation(String password) {
 
-        boolean length6NoEmptySpaces = password.length() >= 5 && !password.contains(" ");
-        boolean upperCaseLetter = !password.contains(password.toLowerCase());
-        boolean lowerCaseLetter = !password.contains(password.toUpperCase());
+        boolean length6NoEmptySpaces = password.length() >= 6 && !password.contains(" ");
+        boolean upperCaseLetter = !password.equals(password.toLowerCase());
+        boolean lowerCaseLetter = !password.equals(password.toUpperCase());
         boolean hasSpecialChar =false;
         boolean hasDigit = false;
 
